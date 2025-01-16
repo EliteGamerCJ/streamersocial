@@ -43,10 +43,10 @@ module.exports = function (config) {
   return {
     expo: {
       version: VERSION,
-      name: 'Bluesky',
-      slug: 'bluesky',
-      scheme: 'bluesky',
-      owner: 'blueskysocial',
+      name: 'StreamerSocial',
+      slug: 'streamersocial',
+      scheme: 'streamersocial',
+      owner: 'streamersocial',
       runtimeVersion: {
         policy: 'appVersion',
       },
@@ -55,7 +55,7 @@ module.exports = function (config) {
       primaryColor: '#1083fe',
       ios: {
         supportsTablet: false,
-        bundleIdentifier: 'xyz.blueskyweb.app',
+        bundleIdentifier: 'xyz.streamersocial.app',
         config: {
           usesNonExemptEncryption: false,
         },
@@ -152,7 +152,7 @@ module.exports = function (config) {
           backgroundColor: '#1185FE',
         },
         googleServicesFile: './google-services.json',
-        package: 'xyz.blueskyweb.app',
+        package: 'xyz.streamersocial.app',
         intentFilters: [
           {
             action: 'VIEW',
